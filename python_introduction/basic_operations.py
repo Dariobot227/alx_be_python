@@ -1,5 +1,5 @@
 number1 = 10
-number2 =5
+number2 = 5
 
 sumoftwo = (number1 + number2)
 substraction = (number1 - number2)
