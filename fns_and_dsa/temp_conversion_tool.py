@@ -1,4 +1,4 @@
-# Global conversion factors (note: use "5/9" and "9/5" with no spaces so simple regex checks match)
+
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 

@@ -19,10 +19,11 @@ def calculate_future_date(days_to_add):
 
 
 def main():
-    # Part 1
+    #displaying the current date first and time
     display_current_datetime()
 
-    # Part 2
+    #grtting the future date
+    #practsing good coding practises by using error handling
     days_input = input("Enter the number of days to add to the current date: ")
 
     try:
