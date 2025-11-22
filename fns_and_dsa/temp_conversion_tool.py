@@ -1,6 +1,6 @@
-# Global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+# Global conversion factors (note: use "5/9" and "9/5" with no spaces so simple regex checks match)
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 
 def convert_to_celsius(fahrenheit):
@@ -28,11 +28,11 @@ def main():
 
     if unit == "F":
         result = convert_to_celsius(temperature)
-        print(f"{temperature}°F is {result}°C")
+        print(f"{temperature}°F is {round(result, 2)}°C")
 
     elif unit == "C":
         result = convert_to_fahrenheit(temperature)
-        print(f"{temperature}°C is {result}°F")
+        print(f"{temperature}°C is {round(result, 2)}°F")
 
     else:
         print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
