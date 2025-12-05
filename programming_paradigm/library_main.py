@@ -2,6 +2,8 @@ from library_management import Book, Library
 
 def main():
     # Setup a small library
+    #showing the concept of inheritance: One class uses or extends another class.
+    
     library = Library()
     library.add_book(Book("Brave New World", "Aldous Huxley"))
     library.add_book(Book("1984", "George Orwell"))
